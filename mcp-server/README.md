@@ -40,3 +40,7 @@ The command is included for a local Inspector session; `npx` may obtain the Insp
 The SDK derives JSON Schema from the typed function signatures. Both tool inputs are required objects with constrained string fields; `day` is limited to the seven weekday names. Invalid schema values are rejected during input validation. A syntactically valid but unknown batch or student ID receives a small JSON error object. The tools return only matching timetable rows or the requested student's fee record.
 
 For annotated JSON-RPC 2.0 request/response examples and verification notes, see [`docs/part-d-mcp-evidence.md`](../docs/part-d-mcp-evidence.md).
+
+## Worktree exercise note
+
+This independent change was committed from the `feature/mcp-server` worktree. It keeps the server setup documentation alongside the MCP implementation.
