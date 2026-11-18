@@ -1,0 +1,9 @@
+batch,day,time_slot,course_code,course_name,room,instructor
+CS-A,Monday,09:00-10:00,CS110,Programming Foundations,Block B 204,Dr. Mira Sen
+CS-A,Monday,10:15-11:15,MA121,Discrete Structures,Block A 108,Prof. Arjun Mehta
+CS-B,Tuesday,09:00-10:00,CS110,Programming Foundations,Block B 205,Dr. Leena Rao
+CS-B,Tuesday,11:00-12:00,CS135,Computer Systems,Lab C 012,Prof. Kabir Nair
+AI-DS,Wednesday,10:00-11:00,AI210,Data Preparation,Block D 301,Dr. Nisha Kulkarni
+AI-DS,Wednesday,11:15-12:15,ST220,Probability for Data Science,Block A 210,Prof. Dev Malhotra
+CS-A,Friday,13:00-14:00,CS150,Problem Solving Studio,Lab B 006,Dr. Mira Sen
+AI-DS,Friday,14:15-15:15,AI230,Responsible Machine Learning,Block D 302,Prof. Ishan Bose

@@ -1,0 +1,32 @@
+[
+  {
+    "student_id": "STU202601",
+    "name": "Aarav Iyer",
+    "semester": "2026-S1",
+    "total_fee": 84500,
+    "paid_amount": 84500,
+    "due_amount": 0,
+    "status": "paid",
+    "receipt_id": "RCPT-26-4107"
+  },
+  {
+    "student_id": "STU202602",
+    "name": "Zoya Fernandes",
+    "semester": "2026-S1",
+    "total_fee": 84500,
+    "paid_amount": 60000,
+    "due_amount": 24500,
+    "status": "partial",
+    "receipt_id": "RCPT-26-4129"
+  },
+  {
+    "student_id": "STU202603",
+    "name": "Rohan Das",
+    "semester": "2026-S1",
+    "total_fee": 84500,
+    "paid_amount": 0,
+    "due_amount": 84500,
+    "status": "unpaid",
+    "receipt_id": null
+  }
+]

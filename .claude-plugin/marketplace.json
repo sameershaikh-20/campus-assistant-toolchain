@@ -1,0 +1,17 @@
+{
+  "name": "nimbus-campus-local",
+  "owner": {
+    "name": "Nimbus Labs Campus Helpdesk (fictional project)"
+  },
+  "metadata": {
+    "description": "Local marketplace for the campus assistant toolchain assignment.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "campus-helpdesk",
+      "source": "./plugins/campus-helpdesk",
+      "description": "Local campus timetable and helpdesk tools with a protected-file hook."
+    }
+  ]
+}

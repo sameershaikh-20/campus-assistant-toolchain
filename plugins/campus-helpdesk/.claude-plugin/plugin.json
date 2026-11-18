@@ -1,0 +1,9 @@
+{
+  "name": "campus-helpdesk",
+  "displayName": "Campus Helpdesk",
+  "version": "1.0.0",
+  "description": "Answers grounded campus timetable and helpdesk questions using local mock data.",
+  "author": {
+    "name": "Nimbus Labs Campus Helpdesk (fictional academic project)"
+  }
+}
