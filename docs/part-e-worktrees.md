@@ -71,6 +71,22 @@ The resolved file states why Git conflicted and that both branches' information 
 
 Git's documentation explains that branch checkout is refused by default when that branch is already checked out in another worktree, and that linked worktrees share repository data except per-worktree state such as `HEAD` and the index. It also documents `remove` and `prune` for cleanup. [Git worktree documentation](https://git-scm.com/docs/git-worktree)
 
+### Cleanup performed
+
+After verifying that each linked worktree was clean and its branch was merged, the three temporary working directories were removed without `--force`. Since Git removed their administrative records normally, the prune preview had no stale entries. The final list contains only the main worktree:
+
+```bash
+git worktree remove /private/tmp/campus-assistant-toolchain-worktrees/skill-tests
+git worktree remove /private/tmp/campus-assistant-toolchain-worktrees/mcp-server
+git worktree remove /private/tmp/campus-assistant-toolchain-worktrees/hook-path
+git worktree prune --dry-run
+git worktree list
+```
+
+```text
+/Users/sameershaikh/Desktop/campus-assistant-toolchain abf1cbd [main]
+```
+
 ## 4. Evaluate the CTO's `/worktree-merge` claim
 
 **Verdict: false as a claim about a built-in Claude Code command.** On 2026-11-18, the official Claude Code [Commands reference](https://code.claude.com/docs/en/commands) was checked: it documents built-in commands and bundled skills, includes worktree-related `/batch`, and has no `/worktree-merge` entry. This check establishes that the command is not documented as a built-in command; it cannot rule out a custom skill or plugin someone has named that way. The official guide describes `/batch` as running work in isolated worktrees, not as automatically resolving Git conflicts without review.
