@@ -39,7 +39,7 @@ To remove the marketplace registration as well, run this separate command. The o
 claude plugin marketplace remove nimbus-campus-local
 ```
 
-These Claude Code commands depend on Claude Code being installed. They are not part of the local Python/Bash/Git toolchain and may require an Anthropic account or subscription to use the Claude Code application; they are documented here because the assignment specifically asks for Claude Code plugin CLI steps. The plugin itself uses no paid API by its design.
+These Claude Code commands depend on Claude Code being installed. Anthropic currently includes Claude Code with paid plans, so running this plugin through Claude Code may require a paid subscription. The commands are documented because the assignment asks for Claude Code plugin CLI steps; the plugin itself does not call a paid API, and the local Python MCP server can be used independently.
 
 ## Protected-file hook behavior
 

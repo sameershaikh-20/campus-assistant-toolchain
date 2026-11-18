@@ -4,3 +4,6 @@ __pycache__/
 venv/
 .env
 .DS_Store
+
+# Screenshots folder — local only, not part of source submission
+screenshots/

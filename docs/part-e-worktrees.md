@@ -14,7 +14,7 @@ git worktree list
 Captured `git worktree list` output after all three workstreams were merged, before removing their linked directories:
 
 ```text
-/Users/sameershaikh/Desktop/campus-assistant-toolchain        dcfd128 [main]
+<repository-root>                                             dcfd128 [main]
 /private/tmp/campus-assistant-toolchain-worktrees/hook-path   8d53484 [bugfix/hook-path]
 /private/tmp/campus-assistant-toolchain-worktrees/mcp-server  ad48379 [feature/mcp-server]
 /private/tmp/campus-assistant-toolchain-worktrees/skill-tests 33eaad6 [feature/skill-tests]
@@ -84,7 +84,7 @@ git worktree list
 ```
 
 ```text
-/Users/sameershaikh/Desktop/campus-assistant-toolchain abf1cbd [main]
+<repository-root> abf1cbd [main]
 ```
 
 ## 4. Evaluate the CTO's `/worktree-merge` claim
